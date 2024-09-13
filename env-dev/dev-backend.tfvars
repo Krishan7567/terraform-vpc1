@@ -1,3 +1,3 @@
-bucket = "tf-remote-state-bucket-kb"
-key    = "vpc/dev/terraform.tfstate"
+bucket = "kb-tf-learn"
+key    = "kb-tf-learn/test/terraform.tfstate"
 region = "us-east-1"
