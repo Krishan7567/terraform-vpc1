@@ -1,3 +1,3 @@
 bucket = "kb-tf-learn"
-key    = "kb-tf-learn/test/terraform.tfstate"
+key    = "kb-tf-learn/test1/terraform.tfstate"
 region = "us-east-1"
