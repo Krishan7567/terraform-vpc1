@@ -1,5 +1,5 @@
 module "vpc" {
   source    = "git::https://github.com/Krishan7567/tf-module1-vpc.git"
-  cidr_block  = var.cidr_block
+  VPC_CIDR  = var.VPC_CIDR
 }
 
