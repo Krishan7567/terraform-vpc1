@@ -1,13 +1,10 @@
 module "vpc" {
   source                   = "git::https://github.com/Krishan7567/tf-module1-vpc.git"  
-  variable "cidr" {
-  default = "10.11.0.0/16"
-}
-
-  variable "ENV" {
-   default = "dev" 
-  }
-}
+  VPC_CIDR                 = var.VPC_CIDR
+  ENV                      = var.ENV
+  PUBLIC_SUBNET_CIDR       = var.PUBLIC_SUBNET_CIDR
+  PRIVATE_SUBNET_CIDR      = var.PRIVATE_SUBNET_CIDR
+  AZ                       = var.AZ 
 
 # module "vpc" {
 #   source = "git::https://github.com/b51-clouddevops/tf-module-vpc.git"
