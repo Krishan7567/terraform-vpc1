@@ -6,6 +6,7 @@ module "vpc" {
   PRIVATE_SUBNET_CIDR      = var.PRIVATE_SUBNET_CIDR
   AZ                       = var.AZ 
 
+}
 # module "vpc" {
 #   source = "git::https://github.com/b51-clouddevops/tf-module-vpc.git"
 # }
