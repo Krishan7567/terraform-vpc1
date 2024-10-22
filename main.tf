@@ -1,6 +1,6 @@
 module "vpc" {
   source                   = "git::https://github.com/Krishan7567/tf-module1-vpc.git"  
-  VPC_CIDR                 = var.VPC_CIDR
+  /*VPC_CIDR                 = var.VPC_CIDR
   ENV                      = var.ENV
   PUBLIC_SUBNET_CIDR       = var.PUBLIC_SUBNET_CIDR
   PRIVATE_SUBNET_CIDR      = var.PRIVATE_SUBNET_CIDR
